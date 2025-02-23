@@ -1,8 +1,9 @@
-SIMD Array Operations with NEON and SSE
+# SIMD Array Operations with NEON and SSE
 
 This repository contains two implementations of SIMD (Single Instruction, Multiple Data) operations on arrays using NEON (ARM) and SSE (Intel) instruction sets. Both implementations perform four basic operations on two float arrays: addition, subtraction, multiplication, and division.
 Files
-1. NEON SIMD (ARM) Operations (neon_operations.c)
+
+## 1. NEON SIMD (ARM) Operations (neon_operations.c)
 
     Platform: ARM with NEON support
     Operations: Addition, Subtraction, Multiplication, Division
@@ -11,7 +12,7 @@ Files
         Compile using a toolchain with NEON support.
         Run on an ARM-based platform or simulator with NEON enabled.
 
-2. SSE SIMD (Intel) Operations (sse_operations.c)
+## 2. SSE SIMD (Intel) Operations (sse_operations.c)
 
     Platform: Intel/AMD processors with SSE support
     Operations: Addition, Subtraction, Multiplication, Division
